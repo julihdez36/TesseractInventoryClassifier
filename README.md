@@ -24,8 +24,11 @@ The objective of this project is to:
 ### 1. Image Acquisition  
 High-resolution images of product labels are captured using a camera under controlled lighting conditions.
 
+![Label example](C:\Users\Julian\Desktop\py_environments\ocr_python\Labels\IMG_1646.JPG)
+
+
 ### 2. Optical Character Recognition (OCR)  
-The Tesseract OCR engine is used to extract raw text from each label image. Preprocessing steps such as grayscale conversion, noise reduction, and thresholding are applied to improve recognition accuracy.
+The [Tesseract OCR engine](https://github.com/tesseract-ocr/tesseract) is used to extract raw text from each label image. Preprocessing steps such as grayscale conversion, noise reduction, and thresholding are applied to improve recognition accuracy.
 
 ### 3. Text Cleaning and Normalization  
 The extracted text is processed to remove noise, normalize formats, and standardize terminology (e.g., part numbers, brands, component types).
@@ -36,10 +39,7 @@ Natural Language Processing (NLP) techniques are applied to:
 - Extract relevant keywords  
 - Build numerical representations (TF-IDF / embeddings)
 
-### 5. Component Classification  
-A supervised classification algorithm is trained to categorize components into predefined groups (e.g., motherboards, RAM, SSDs, power supplies, screens, peripherals, etc.).
-
-### 6. Inventory Structuring  
+### 5. Inventory Structuring  
 The classified results are stored in a structured format (CSV / database), enabling:
 - Search by component type  
 - Stock aggregation  
@@ -52,10 +52,3 @@ A public dataset and example images are available at:
 
 [Google Drive link will be placed here]
 
-## Visual Documentation
-
-This repository includes:
-- Images of Techsavers’ facilities (Adelaide Street, Brisbane)
-- Sample label photographs
-- OCR output examples
-- Classification results
