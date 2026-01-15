@@ -8,7 +8,7 @@ This project addresses the digitalization and classification of legacy hardware 
 
 The company required a solution to automatically extract, organize, and classify the information contained in these physical labels in order to build a searchable digital inventory.
 
-![](https://www.facebook.com/TechsaversBrisbane/)
+![img](https://www.facebook.com/TechsaversBrisbane/)
 
 ## Objective
 
